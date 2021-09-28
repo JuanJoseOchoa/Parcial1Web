@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+.titulo{
+    font-family: 'Satisfy', cursive;
+}
+
+.navbar-collapse{
+    display: inline;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+
+li, a{
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+}
