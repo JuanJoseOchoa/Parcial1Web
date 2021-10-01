@@ -1,34 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
-
-.titulo{
-    font-family: 'Satisfy', cursive;
+#titulo{
+    font-family: "Satisfy", cursive;
+    font-size: 3em;
 }
 
-.navbar-collapse{
-    display: inline;
+#burgers{
+    font-size: x-large;
 }
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: grey;
+#tacos{
+    font-size: x-large;
 }
 
-li, a{
-    color: white;
+#salads{
+    font-size: x-large;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: right;
+#desserts{
+    font-size: x-large;
 }
 
-.nav_links{
-    list-style: none;
+#drinks{
+    font-size: x-large;
 }
 
-.nav_links li{
-    display: inline-block;
+#carta {
+    min-height: 625px;
+}
+
+#precio {
+    position: absolute;
+    bottom: 75px;
+}
+
+#navigation {
+    height: 100px;
+}
+
+#botonSumar{
+    width: 40px;
+}
+
+#botonRestar{
+    width: 40px;
 }
